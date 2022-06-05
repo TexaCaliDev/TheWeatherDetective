@@ -1,14 +1,15 @@
 import React from 'react'
+import Nav from '../components/Nav'
 import Layout from '../components/Layout'
 
-function Landing() {
+function Home() {
     return (
       <div className="App">
-        <Layout>
-            <h1>Landing Page</h1>
-        </Layout>
+      <Layout>
+          <h1>Home Page</h1>
+      </Layout>
       </div>
     );
   }
   
-  export default Landing;
+  export default Home;
